@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a46e8748-ad3b-4737-ab1c-8971df577cba</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ITMO.PythonLab.py</StartupFile>
+    <StartupFile>Py_lab-2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ITMO.PythonLab.py" />
+    <Compile Include="Py_lab-2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
